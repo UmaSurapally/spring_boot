@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<body>
+    
+      <form action="/insertbookingdetails">
+     
+          <h1>Enjoy Your Movie</h1>
+      
+        <br/>
+       
+          <legend>Movie Booking Information</legend>
+<p>User Details</p>
+          <div >
+            <label for="moviename"> Movie Name<span>*</span></label>
+            <input type="text" name="moviename">
+          </div>
+          <div >
+            <label for="customername">Customer Name<span>*</span></label>
+           <input type="text" name="customername">
+          </div>
+          
+            <div >
+            <label for="show date">Show Date <span>*</span></label>
+            <input type="date" name="bdate" min="2021-12-01" max="2021-12-05"/>
+            
+              
+              <div>
+            <label for="customermobile">Mobile No<span>*</span></label>
+            <input type="text" name="cmobile">
+          </div>
+              
+              <div >
+            <label for="cuscity">City<span>*</span></label>
+            <input type="text" name="city">
+          </div>
+              
+              
+          </div>
+ <div >
+             <p>Theater</p>
+            <select name="mtheater">
+              
+             <option value="pvp" >PvP</option>
+              <option value="ravindra">Ravindra</option>
+              <option value="Alankar">alankar</option>
+             
+            </select>
+          </div>
+          
+          <div >
+             <p>Show details</p>
+            <select name="show">
+              
+             <option value="morning" >Morning</option>
+              <option value="evening">Evening</option>
+              <option value="firstshow">First show</option>
+              <option value="secondshow">Second show</option>
+             
+            </select>
+          </div>
+          
+          <div >
+             <p>Seat preference</p>
+            <select name="seat">
+              
+             <option value="platinum" >Platinum (Rs.250)</option>
+              <option value="economy">Economy (Rs.150)</option>
+              
+             
+            </select>
+          </div>
+   <button>Submit</button>
+    </form>
+    
+  </body>
+
+
+
+</body>
+</html>
